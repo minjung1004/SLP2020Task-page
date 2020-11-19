@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>TodoList</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">    
+    <link rel="stylesheet" href="index.css"/>
+    <link rel="stylesheet" href="todo1.css" />
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </head>
+
+  <body class="body2">
+
+    <div class="w3-top">
+        <div class="w3-bar w3-black w3-wide w3-padding w3-card">
+          <a href="home.html" class="w3-bar-item w3-button"><b>PERSONA</b></a>
+          <div class="w3-right w3-hide-small">
+            <a href="#home" class="w3-bar-item w3-button">Home</a>
+            <a href="todo.html" class="w3-bar-item w3-button">Tasks</a>
+            <a href="#calendar" class="w3-bar-item w3-button">Calendar</a>
+            <a href="#timer" class="w3-bar-item w3-button">Timer</a>
+            <a href="#logout" class="w3-bar-item w3-button">Log Out</a> 
+          </div>
+        </div>
+      </div>
+
+      <header>
+        <h1>My Task List</h1>
+      </header>
+      
+        <div class="date1">
+          <h3>Pick Date: </h3>
+            <input type="date" class="form-control1" id="datepicker1" 
+              name="date">
+              <a href="todo.html">
+              <button class="submit-btn1" id="myBtn">
+                Submit                    
+              </button>
+              </a>
+        </div>
+       
+        <div id="tlist1">
+            <form>
+              <input type="text" class="todo-input1" placeholder=""/>
+              <button class="todo-button1" type="submit" >
+                Add
+              </button>
+            
+            </form>
+            <div class="todo-container">
+              <ul class="todo-list1">
+              </ul>
+            </div>
+        
+            <script src="todo1.js"></script>
+        
+          </div>
+     
+    </body>
+  </html>
+  
